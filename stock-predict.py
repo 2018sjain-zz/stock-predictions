@@ -8,10 +8,10 @@ from keras.models import Sequential
 from keras.layers import Dense
 from textblob import TextBlob
 
-consumer_key = "ZTk0qhz8CspxHnCx9ydEu6Dxz"
-comsumer_secret = "8TBJTbNhbMI25FsDqgQ3J5k2bQ0bUw1oFzh2se1GYJ25FpTULe"
-access_token = "2380083708-K0y5Dbzqk2ihXRtZl1vOpD0lJ662wPh9pTmwu6f"
-access_secret = "bVxJsvSijpXTkULTomD2OFeWlasvSjQzDh7rLF1yM6BRB"
+consumer_key = ""
+comsumer_secret = ""
+access_token = ""
+access_secret = ""
 login = tweepy.OAuthHandler(consumer_key, comsumer_secret)
 login.set_access_token(access_token, access_secret)
 user = tweepy.API(login)
